@@ -1,5 +1,10 @@
+#Chapter 9-1 Challenge
+#2/24/15
+#Danielle Brhely
+
 # Blackjack
 # From 1 to 7 players compete against a dealer
+# with repopulate and reshuffle
 
 import cards, games     
 
@@ -170,6 +175,17 @@ class BJ_Game(object):
         self.dealer.clear()
         self.deck.populate()
         self.deck.shuffle()
+
+        def bankroll(self, money, bet):
+            money = None
+            while money != 0:
+                money = int(input("How much money do you want? "))
+                print(player.money)
+                bet = input("Do you want to?: raise, stay, or fold ")
+                if bet == "raise":
+                    bet = int(input("How much?: "))
+                    player.money = money - bet
+                    
 
 def main():
     print("\t\tWelcome to Blackjack!\n")

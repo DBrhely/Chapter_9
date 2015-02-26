@@ -1,5 +1,10 @@
+#Chapter 9-1 Challenge
+#2/24/15
+#Danielle Brhely
+
 # Blackjack
 # From 1 to 7 players compete against a dealer
+# with repopulate and reshuffle
 
 import cards, games     
 
